@@ -1,0 +1,44 @@
+---
+title: "Quarto test"
+format:
+  html:
+    code-fold: true
+    code-tools: true
+execute:
+  echo: false
+  python:
+    path: ../venv/bin/python3
+---
+
+
+Test Test
+
+```{python}
+import inspect
+
+def generate_code_from_module(module_name, method_name):
+    try:
+        # Dynamically import the module
+        module = __import__(module_name)
+        
+        # Get the method (function) from the module
+        method = getattr(module, method_name)
+        
+        # Extract the source code of the method (this includes the body)
+        source_code = inspect.getsource(method)
+        
+        # Return the formatted Markdown code block with the full function body
+        return f"```python\n{source_code}```"
+    except Exception as e:
+        return f"Error: {e}"
+
+```
+
+testFafawll 
+```{python}
+from problem_models import graph_colouring
+
+generate_code_from_module(graph_colouring, random_moves_without_replacement)
+```
+
+# test

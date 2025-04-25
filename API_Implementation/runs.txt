@@ -1,0 +1,80 @@
+Tabu - Good data:
+
+DSJC125.5_1 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=15, max_tabu_tenure=150, max_iterations=1000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=100000)
+best: 18 - sec: 8.83 - run time: 451
+DSJC125.5_2 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=15, max_tabu_tenure=30, max_iterations=1000000, aspiration_criteria=-5, clean_iter=10000, idle_iterations=100000)
+best: 18 - sec: 56.1 - run time: 431
+DSJC125.5_4 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=20, max_iterations=1000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=100000)
+best:  19 - sec: 11.25 - run time: 359
+DSJC125.5_5 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=20, max_iterations=1000000, aspiration_criteria=-5, clean_iter=10000, idle_iterations=100000)
+best: 19 - sec: 18.3 - run time: 67
+DSJC125.5_6 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=20, max_iterations=1000000, aspiration_criteria=-5, clean_iter=10000, idle_iterations=100000)
+best: 20 - sec:  16 - run time: 134
+
+DSJC250.5_1 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=20, max_iterations=1000000, aspiration_criteria=-5, clean_iter=10000, idle_iterations=100000)
+best: 32 - sec: 100 - run time: 571
+DSJC250.5_2 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=20, max_iterations=1000000, aspiration_criteria=-5, clean_iter=10000, idle_iterations=100000)
+best: 32 - sec: 125 - run time: 711
+DSJC250.5_3 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=20, max_iterations=1000000, aspiration_criteria=-8, clean_iter=10000, idle_iterations=100000)
+best: 31 - sec: 353 - run time: 3075
+DSJC250.5_4 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=20, max_iterations=1000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=100000)
+best: 31 - sec: 1863 - run time: 10404
+
+
+DSJC500.5_2 =  tabu_search(problem=p, current_solution=s1, tabu_tenure=150, max_iterations=1000000, aspiration_criteria=-7, clean_iter=10000, idle_iterations=100000)
+best: 56 - sec: 2963 - run time: 4564
+DSJC500.5_8 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=15, max_tabu_tenure=30, max_iterations=1000000, aspiration_criteria=-30, clean_iter=10000, idle_iterations=100000)
+best: 59 - sec: 805 - run time: 3377
+DSJC500.5_8_1  = tabu_search(problem=p, current_solution=s1, min_tabu_tenure=15, max_tabu_tenure=150, max_iterations=1000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=100000)
+best: 55 - sec: 4433 - run time: 11793
+DSJC500.5_9  = tabu_search(problem=p, current_solution=s1, min_tabu_tenure=15, max_tabu_tenure=100, max_iterations=1000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=100000)
+best: 55  - sec: 7480 - run time: 15378
+DSJC500.5_10 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=15, max_tabu_tenure=30, max_iterations=1000000, aspiration_criteria=-5, clean_iter=10000, idle_iterations=100000)
+best: 55  - sec: 2120 - run time: 24073
+
+DSJC1000.5_1 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=15, max_tabu_tenure=30, max_iterations=1000000, aspiration_criteria=-5, clean_iter=10000, idle_iterations=100000)
+best: 100 - sec: 11633 - run time: 88095
+DSJC1000.5_2 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=15, max_tabu_tenure=150, max_iterations=1000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=100000)
+best: 98 - sec: 27704 - run time: 89484
+DSJC1000.5_3 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=130, max_iterations=1000000, aspiration_criteria=-12, clean_iter=10000, idle_iterations=100000, metric_logger=logger)
+best: 99 - sec: 17220 - run time: 49527
+
+Tabu - New data:
+
+DSJC125.5_1 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=100, max_iterations=1000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=100000)
+best: 19 - sec: 48 - run time: 1924
+DSJC125.5_2 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=100, max_iterations=1000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=100000)
+best:  - sec:  - run time:
+DSJC125.5_3 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=100, max_iterations=1000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=100000)
+best:  - sec:  - run time:
+DSJC125.5_4 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=100, max_iterations=1000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=100000)
+best:  - sec:  - run time:
+DSJC125.5_5 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=100, max_iterations=1000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=100000)
+best:  - sec:  - run time:
+DSJC125.5_6 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=50, max_iterations=1000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=100000)
+best:  - sec:  - run time:
+DSJC125.5_7 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=50, max_iterations=1000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=100000)
+best:  - sec:  - run time:
+DSJC125.5_8 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=50, max_iterations=1000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=100000)
+best:  - sec:  - run time:
+DSJC125.5_9 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=50, max_iterations=1000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=100000)
+best:  - sec:  - run time:
+DSJC125.5_10 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=50, max_iterations=1000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=100000)
+best:  - sec:  - run time:
+DSJC125.5_11 = tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=30, max_iterations=10000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=1000000, metric_logger=logger)
+DSJC125.5_12 = tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=30, max_iterations=10000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=1000000, metric_logger=logger)
+DSJC125.5_13 = tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=30, max_iterations=10000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=1000000, metric_logger=logger)
+DSJC125.5_14 = tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=30, max_iterations=10000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=1000000, metric_logger=logger)
+DSJC125.5_15 = tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=30, max_iterations=10000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=1000000, metric_logger=logger)
+DSJC125.5_16 = tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=30, max_iterations=10000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=1000000, metric_logger=logger)
+
+DSJC125.5_17 = iterated_local_search(p, s1, 1000000, perturbation_strength=int(p.vertex_count / 100 * 2.0), logger=logger)
+DSJC125.5_18 = iterated_local_search(p, s1, 1000000, perturbation_strength=int(p.vertex_count / 100 * 2.0), logger=logger)
+DSJC125.5_19 = iterated_local_search(p, s1, 1000000, perturbation_strength=int(p.vertex_count / 100 * 2.0), logger=logger)
+DSJC125.5_20 = iterated_local_search(p, s1, 1000000, perturbation_strength=int(p.vertex_count / 100 * 2.0), logger=logger)
+DSJC125.5_21 = iterated_local_search(p, s1, 1000000, perturbation_strength=int(p.vertex_count / 100 * 2.0), logger=logger)
+
+
+
+DSJC500.5_1 =  tabu_search(problem=p, current_solution=s1, min_tabu_tenure=10, max_tabu_tenure=100, max_iterations=1000000, aspiration_criteria=-10, clean_iter=10000, idle_iterations=100000, metric_logger=logger)
+best:  - sec:  - run time:

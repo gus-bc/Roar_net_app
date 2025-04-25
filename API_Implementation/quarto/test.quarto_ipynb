@@ -1,0 +1,90 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Quarto test\"\n",
+        "format:\n",
+        "  html:\n",
+        "    code-fold: true\n",
+        "    code-tools: true\n",
+        "execute:\n",
+        "  echo: false\n",
+        "  python:\n",
+        "    path: ../venv/bin/python3\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "Test Test\n"
+      ],
+      "id": "9041bd1f"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import inspect\n",
+        "\n",
+        "def generate_code_from_module(module_name, method_name):\n",
+        "    try:\n",
+        "        # Dynamically import the module\n",
+        "        module = __import__(module_name)\n",
+        "        \n",
+        "        # Get the method (function) from the module\n",
+        "        method = getattr(module, method_name)\n",
+        "        \n",
+        "        # Extract the source code of the method (this includes the body)\n",
+        "        source_code = inspect.getsource(method)\n",
+        "        \n",
+        "        # Return the formatted Markdown code block with the full function body\n",
+        "        return f\"```python\\n{source_code}```\"\n",
+        "    except Exception as e:\n",
+        "        return f\"Error: {e}\""
+      ],
+      "id": "585c1146",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "testFafawll "
+      ],
+      "id": "70133bb0"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "from problem_models import graph_colouring\n",
+        "\n",
+        "generate_code_from_module(graph_colouring, random_moves_without_replacement)"
+      ],
+      "id": "a57c84f2",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# test"
+      ],
+      "id": "2ab02a3c"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/Users/gusbc/Documents/Datalogi/6._semester/Bachelor/API_Implementation/venv/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

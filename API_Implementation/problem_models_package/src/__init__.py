@@ -1,0 +1,1 @@
+from .problem_models import graph_colouring

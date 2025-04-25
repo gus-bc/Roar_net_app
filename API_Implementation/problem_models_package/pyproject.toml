@@ -1,0 +1,29 @@
+[project]
+name = "problem_models"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Gusbc",email = "gchri21@student.sdu.dk"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "src/*.py",
+    "src/**/*.py",
+]
+
+
